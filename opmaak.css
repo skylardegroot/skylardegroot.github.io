@@ -7,6 +7,7 @@ ul {
     overflow: hidden;
     background-color: #000000;
     position: sticky;
+    top: 0; 
 }
 
 ul li {
@@ -21,9 +22,10 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover :not(.active){
-  background-color: rgb(153,0,102); }
+ul li a:hover {
+  background-color: #f40909;
+}
 
 ul li a.active {
-    background-color: rgb(255,0,0);
+  background-color: #4CAF50;
 }
