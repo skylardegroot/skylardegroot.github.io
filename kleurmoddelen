@@ -1,10 +1,21 @@
-<!doctype html>
-<html>
-<head>
-    <title>kleurmoddelen</title>
-</head>
-<body>
-    hallo
+<!DOCTYPE html>
 
+<html>
+
+<head>
+<title>kleurmodelen</title>
+</head>
+
+<body>
+<p>
+hallo
+</p>
+<u>
+<li><a href="index.html">home page</a></li>
+<li><a href="pagina2.html">binair stelsel</a></li>
+<li><a href="kleurmoddelen">kleurmodelen</a></li>
+</u>
 </body>
+
+
 </html>
