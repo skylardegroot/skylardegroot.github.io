@@ -20,5 +20,9 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111; }
+ul li a:hover :not(.active){
+  background-color: rgb(102,0,102); }
+
+ul li a.active {
+    background-color: rgb(255,0,0);
+}
