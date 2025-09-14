@@ -1,5 +1,1 @@
 body { background-color: yellow;}
-      const button = document.getElementById("toggleBtn");
-            button.onclick = function() {
-                document.body.classList.toggle("bw");
-            }
