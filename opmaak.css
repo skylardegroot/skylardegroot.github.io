@@ -12,7 +12,6 @@ ul {
 
 ul li {
     float: left;
-    border-right: 1 px solid rgb(255, 255, 255);
 }
 
 ul li a {
