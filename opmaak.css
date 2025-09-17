@@ -12,13 +12,14 @@ ul {
 
 ul li {
     float: left;
+    border-right: 1 px solid rgb(255, 255, 255);
 }
 
 ul li a {
     display: block;
     color: white;
     text-align: center; 
-    padding: 14px 16px;
+    padding: 14 px 16 px;
     text-decoration: none;
 }
 
