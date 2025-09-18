@@ -5,7 +5,7 @@
 <head>
 <title>kleurmodellen</title>
 <link rel="stylesheet" href="opmaak.css">
-<link rel="stylesheet" href="style">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,11 +19,30 @@
 <p>
 hallo
 </p>
-<button type="button" onclick="">click on me</button>
+<button type="button" onclick="grayscale()">click on me</button>
 <div id="pictures">
 <img src="Lois Abbingh (1).webp" alt="random foto test" width="440px" height="440px">
 </div>
 </body>
 
+<style>
+  
+  body {
+    transition: filter 0s; 
+  }
+  body.grayscale {
+  
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  }
+</style>
+<!-- JavaScript -->
+<script>
+
+  function grayscale() {
+ 
+    document.body.classList.toggle("grayscale");
+  }
+</script>
 
 </html>
