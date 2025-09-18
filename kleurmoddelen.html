@@ -19,18 +19,18 @@
 <p>
 hallo
 </p>
-<button type="button" onclick="grayscale()">click on me</button>
+<button type="button" onclick="grayscale()">click on me</button> <!--button to go to grayscale-->
 <div id="pictures">
 <img src="Lois Abbingh (1).webp" alt="random foto test" width="440px" height="440px">
 </div>
 </body>
-
+<!--css-->
 <style>
   
   body {
     transition: filter 0s; 
   }
-  body.grayscale {
+  body.grayscale { /*this makes the website goes to grayscale the filter*/
   
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
@@ -41,7 +41,8 @@ hallo
 
   function grayscale() {
  
-    document.body.classList.toggle("grayscale");
+    document.body.classList.toggle("grayscale"); 
+    // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit
   }
 </script>
 
