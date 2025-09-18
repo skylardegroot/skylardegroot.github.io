@@ -1,6 +1,6 @@
 body {background-color: #8080ff;} /*background collor*/
 
-ul { 
+ul { /*css for menu*/
     list-style-type: none;
     margin: 0px;
     padding: 0;
@@ -10,11 +10,11 @@ ul {
     top: 0; 
 }
 
-ul li {
+ul li { /*the blocks with links*/
     float: left;
 }
 
-ul li a {
+ul li a { /*inside the blocks*/
     display: block;
     color: white;
     text-align: center; 
@@ -22,10 +22,10 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover {
+ul li a:hover { /*hover, when going over the blocks the color*/
   background-color: #f40909;
 }
 
-ul li a.active {
+ul li a.active { /*the active one, the page where you're on the color*/
   background-color: #2b00ff;
 }
