@@ -12,7 +12,8 @@
 <li><a href="invoer-verwerking-uitvoer.html">invoer-verwerking-uitvoer</a></li>
 <li><a class="active" href="compressie.html">compressie</a></li>
 </ul>
-<h3>bitmap en vectoren</h3>
+<h1>compressie</h1>
+<h2>bitmap en vectoren</h2>
 <p>Een digitale afbeelding bestaat uit pixels een afbeeling gemaakt van veel pixels
 is een bitmap afbeelding dit neemt veel opslagruimte in, ook zodra je inzoomt wordt de afbeelding
 onscherp. Bij een bitmap afbeelding wordt van elke pixel de rgb pixel voor pixel opgeslagen dus als
@@ -25,13 +26,24 @@ een afbeelding opgeslagen: de vorm, locatie, grootte en kleur.Dit kan niet bij e
 die niet uit vormen maar uit verschillende kleurtinten bestaat. 
 </p>
 <img src="vector vs bitmap.jpg" alt="voorbeeld verschil bitmap vs. vector">
-<h3>geluid</h3>
+<h2>geluid</h2>
 <p>Tekst, kleuren, plaatjes staat er ook geluid opgeslagen, geluid zijn golfjes, dit zijn trillingen. Met 
 bijv. een microfoon kunnen geluidstrillingen worden omgezet in elektrische signaalen. De computer 
 kan dit signaal omzetten naar digitale waarden, dit heet samplen. Hier wordt een keer in de zoveel tijd
 de sterkte van het geluid gemeten. Alle punten die gemeten zijn worden samples genoemd, en worden binair
 opgeslagen. Als het geluid dan afgesleeld wordt dan worden de gemeten waarden weer omgezet naar elektrische
 singalen. Het aantal samples per seconde wordt de sample rade genoemd.  
+</p>
+<h2>lossy compressie</h2>
+<p>Bij lossy compressie worden er stukken van de afbeelding weggelaten, als er veel verschillende tinten
+kleuren zijn worden die vervangen door dezelfde tint zodat het minder ruimte inneemt in de opslag. Dit
+is niet altijd zichtbaar met het menselijke oog. Een veelvoorkomende lossy compressie methode is jpg. 
+</p>
+<h2>lostless compressie</h2>
+<p>Bij lostless composositie worden er geen stukken weggelaten maar wordt er als er dezelfde kleur
+naast elkaar staat in plaats van een paar keer die code naast elkaar gezegt: (hoeveelheid, code). Bij
+lostless compressie kan het altijd weer terug naar het origineel maar bij lossy compressie kan dit niet.
+Lossy compressie levert kleinere bestanden op dan lostless compressie
 </p>
 </body>
 </html>
