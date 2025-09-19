@@ -33,9 +33,9 @@ ul li a.active { /*the active one, the page where you're on the color*/
 a:link {
   color: green;
   background-color: transparent;
-  text-decoration:dotted;
+  text-decoration:dotted;}
 
 a:hover {
   color: red;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: underline;}
