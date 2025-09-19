@@ -29,3 +29,13 @@ ul li a:hover { /*hover, when going over the blocks the color*/
 ul li a.active { /*the active one, the page where you're on the color*/
   background-color: #2b00ff;
 }
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration:dotted;
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
