@@ -35,7 +35,7 @@ a:link {
   background-color: transparent;
   text-decoration:dotted;}
 
-a:hover {
+a link:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;}
