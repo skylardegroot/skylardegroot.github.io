@@ -34,3 +34,14 @@ a .link {
   color: rgb(21, 0, 255);
   background-color: transparent;
   text-decoration:underline;}
+
+  a:visited .link {
+  color: rgb(21, 0, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover .link {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
