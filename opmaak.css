@@ -30,7 +30,7 @@ ul li a.active { /*the active one, the page where you're on the color*/
   background-color: #2b00ff;
 }
 
-a:link {
+a .link {
   color: rgb(21, 0, 255);
   background-color: transparent;
   text-decoration:underline;}
