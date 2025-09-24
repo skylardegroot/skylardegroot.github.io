@@ -46,10 +46,11 @@ a .link {
   text-decoration: underline;
 }
 
-p.tekst {
+p.Tekst {
   border: 2px solid black;
   border-radius: 12px;
-  padding: 5px;}
+  padding: 5px;
+}
 
 .weericon { 
     float: right;
