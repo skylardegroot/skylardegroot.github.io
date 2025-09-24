@@ -1,25 +1,25 @@
 body {background-color: #8e8ee8;} /*background collor*/
 
 ul { /*css for menu*/
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-    position: sticky;
-    top: 0; 
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: sticky;
+  top: 0; 
 }
 
 ul li { /*the blocks with links*/
-    float: left;
+  float: left;
 }
 
 ul li a { /*inside the blocks*/
-    display: block;
-    color: white;
-    text-align: center; 
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 ul li a:hover { /*hover, when going over the blocks the color*/
