@@ -2,58 +2,56 @@
 
 <html>
 
-<head>
+  <head>
 
-<title>kleurmodellen</title>
+    <title>kleurmodellen</title>
 
-<link rel="stylesheet" href="/css/opmaak.css">
+    <link rel="stylesheet" href="/css/opmaak.css">
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-<ul>
-  <li><a href="/index.html">home</a></li>
-  <li><a href="/html/binairstelsel.html">binair stelsel</a></li>
-  <li><a class="active" href="/html/kleurmoddelen.html">kleurmodellen</a></li>
-  <li><a href="/html/invoer-verwerking-uitvoer.html">invoer-verwerking-uitvoer</a></li>
-  <li><a href="/html/compressie.html">compressie</a></li>
-</ul>
+    <ul>
+      <li><a href="/index.html">home</a></li>
+      <li><a href="/html/binairstelsel.html">binair stelsel</a></li>
+      <li><a class="active" href="/html/kleurmoddelen.html">kleurmodellen</a></li>
+      <li><a href="/html/invoer-verwerking-uitvoer.html">invoer-verwerking-uitvoer</a></li>
+      <li><a href="/html/compressie.html">compressie</a></li>
+    </ul>
 
-<p>
-  hallo
-</p>
+    <p>
+      hallo
+    </p>
 
-</div>
-<button type="button" onclick="grayscale()">click on me</button> <!--button to go to grayscale-->
-<!--css-->
-<style>
+    <button type="button" onclick="grayscale()">click on me</button> <!--button to go to grayscale-->
+   <!--hieronder is een stukje css, dit is om de button werkend te krijgen en anders zit het nutteloos in het css document te staan voor alle andere pagina's dan dit omdat het niet voor elke pagina geld-->
+    <style>
   
-  body {
-    transition: filter 0s; 
-    background-color: #8e8ee8;;
-  }
-  body.grayscale { 
-    /*this makes the website goes to grayscale the filter (1) means 100%*/
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-  background-color: gray;
-  }
-</style>
-<!-- JavaScript -->
-<script>
+      body {
+        transition: filter 0s; 
+        background-color: #8e8ee8;;}
+      body.grayscale { 
+      /*this makes the website goes to grayscale the filter (1) means 100%*/
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+       background-color: gray;}
+   </style>
 
-  function grayscale() {
+      <!-- JavaScript -->
+    <script>
+
+     function grayscale() {
  
-    document.body.classList.toggle("grayscale"); 
-    // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit
-  
-  }
-</script>
+        document.body.classList.toggle("grayscale"); 
+        // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit 
+      }
+   </script>
         
-        <footer>
-            <p>gemaakt door ...</p>
-        </footer>
-</body>
+   <footer>
+     <p>gemaakt door ...</p>
+    </footer>
+
+  </body>
 
 </html>
