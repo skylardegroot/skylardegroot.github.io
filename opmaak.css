@@ -50,3 +50,8 @@ p.tekst {
   border: 2px solid black;
   border-radius: 12px;
   padding: 5px;}
+
+.weericon { 
+    float: right;
+  margin-left: 15px;
+}
