@@ -53,14 +53,13 @@ p.Tekst {
   margin-right: 30%;
 }
 
-div .weericon { 
-  float: right;
-  /*margin-left: 15px;*/
-}
-
 footer {
   background-color: rgb(255, 102, 102);
   padding: 5px;
   text-align: center;
   color: #0000ff;
+}
+
+img .image-invoer-verwerking-uitvoer{
+  float: right;
 }
