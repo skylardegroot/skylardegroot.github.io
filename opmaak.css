@@ -50,10 +50,10 @@ p.Tekst {
   border: 2px solid black;
   border-radius: 12px;
   padding: 5px;
-  margin-left: 25%;
+  margin-right: 25%;
 }
 
 div .weericon { 
   float: right;
-  margin-right: 15px;
+  margin-left: 15px;
 }
