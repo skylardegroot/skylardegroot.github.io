@@ -45,3 +45,8 @@ a .link {
   background-color: transparent;
   text-decoration: underline;
 }
+
+p.tekst {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;}
