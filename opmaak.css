@@ -52,7 +52,7 @@ p.Tekst {
   padding: 5px;
 }
 
-.weericon { 
+div .weericon { 
   float: right;
   margin-left: 15px;
 }
