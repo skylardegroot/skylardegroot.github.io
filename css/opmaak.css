@@ -63,3 +63,12 @@ footer {
 img .image-invoer-verwerking-uitvoer{
   float: right;
 }
+
+  .hover-img {
+    width: 200px;                 /* Beginbreedte van de afbeelding */
+    transition: transform 0.3s ease; /* Vloeiende overgang bij hover */
+  }
+
+  .hover-img:hover {
+    transform: scale(1.2);       /* Vergroot de afbeelding met 20% */
+  }
