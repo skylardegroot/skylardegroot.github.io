@@ -35,12 +35,12 @@ p .link {
   background-color: transparent;
   text-decoration:underline;}
 
-.link p:visited{
+p:visited .link {
   color: rgb(21, 0, 255);
   background-color: transparent;
   text-decoration: underline;
 }
-.link p:hover {
+p:hover.link {
   color: red;
   background-color: transparent;
   text-decoration: underline;
