@@ -73,7 +73,26 @@
         // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit 
       }
    </script>
-        
+    
+   <button id="invert-btn">Or click here</button>
+
+    <!-- Style -->
+    <style>
+      body.invert {
+        filter: invert(100%);
+        transition: filter 0s ease; /* Smooth overgang */
+      }
+    </style>
+
+    <!-- Script -->
+    <script>
+      const invertBtn = document.getElementById('invert-btn');
+
+      invertBtn.addEventListener('click', () => {
+        document.body.classList.toggle('invert');
+      });
+    </script>
+
    <footer class="footer">
      <p>Deze website is gemaakt door ...</p>
     </footer>
