@@ -30,17 +30,17 @@ ul li a.active { /*the active one, the page where you're on the color*/
   background-color: #2b00ff;
 }
 
-a .link {
+p .link {
   color: rgb(21, 0, 255);
   background-color: transparent;
   text-decoration:underline;}
 
-.link a:visited{
+.link p:visited{
   color: rgb(21, 0, 255);
   background-color: transparent;
   text-decoration: underline;
 }
-.link a:hover {
+.link p:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
