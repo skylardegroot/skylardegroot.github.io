@@ -55,7 +55,7 @@
     <style>
   
       body {
-        transition: filter 0s; 
+        transition: filter 0,5s; 
         background-color: #8e8ee8;;}
       body.grayscale { 
       /*this makes the website goes to grayscale the filter (1) means 100%*/
@@ -75,22 +75,29 @@
    </script>
     
    <br>
+   <br>
 
    <button id="invert-btn">Or click here</button>
 
-    <!-- Style -->
+    <!-- css -->
     <style>
       body.invert {
-        filter: invert(100%);
-        transition: filter 0s ease; /* Smooth overgang */
+        filter: invert(100%); /*Dit zorgt ervoor dat de kleuren zich gaan omdraaien.*/
+        transition: filter 0,5s ease; /* Dat de kleuren gaan wisselen en hoe lang dat duurt. */
       }
     </style>
 
-    <!-- Script -->
+    <!-- javascript -->
     <script>
+      // Zoek in de pagina het element dat de knop is met het ID 'invert-btn'
+      // en bewaar een verwijzing naar dat element in een variabele genaamd 'invertBtn'
       const invertBtn = document.getElementById('invert-btn');
-
+      
+      // Zeg tegen die knop: “luister naar klik-gebeurtenissen en doe iets als er op wordt geklikt”
       invertBtn.addEventListener('click', () => {
+          // 'Document.body' verwijst naar het <body> element van de pagina.
+          // 'ClassList.toggle("invert")' voegt de class 'invert' toe als deze er nog niet is.
+          // Of verwijdert de class 'invert' als deze er al is.
         document.body.classList.toggle('invert');
       });
     </script>
