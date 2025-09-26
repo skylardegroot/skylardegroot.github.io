@@ -60,14 +60,17 @@ footer {
   color: rgb(0, 0, 255);
 }
 
-div {float: right;}
+div {
+  float: right;
+  margin-left: 15px;
+}
 
-  .hover-image {
-    width: 540px;                 /* Beginbreedte van de afbeelding. */
-    transition: transform 0.3s ease; /* Vloeiende overgang bij hover. */
-    margin-left: 20px; /*Dit zorgt ervoor dat de afbeelding 20px van de rand zit. */
-  }
+.hover-image {
+  width: 540px;                 /* Beginbreedte van de afbeelding. */
+  transition: transform 0.3s ease; /* Vloeiende overgang bij hover. */
+  margin-left: 20px; /*Dit zorgt ervoor dat de afbeelding 20px van de rand zit. */
+}
 
-  .hover-image:hover {
-    transform: scale(1.2);       /* Vergroot de afbeelding met 20%. */
-  }
+.hover-image:hover {
+  transform: scale(1.2);       /* Vergroot de afbeelding met 20%. */
+}
