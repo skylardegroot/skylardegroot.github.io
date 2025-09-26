@@ -50,34 +50,7 @@
       mengen donkergrijs geeft. Zo ontstaat het CYMK-model, de k staat voor key of black. 
     </p>
 
-    <button type="button" onclick="grayscale()">click on me</button> <!--button to go to grayscale-->
-    <!--hieronder is een stukje css, dit is om de button werkend te krijgen en anders zit het nutteloos in het css document te staan voor alle andere pagina's dan dit omdat het niet voor elke pagina geld-->
-    <style>
-  
-      body {
-        transition: filter 0,5s; 
-        background-color: #8e8ee8;;}
-      body.grayscale { 
-      /*this makes the website goes to grayscale the filter (1) means 100%*/
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1);
-       background-color: gray;}
-   </style>
-
-      <!-- JavaScript -->
-    <script>
-
-     function grayscale() {
- 
-        document.body.classList.toggle("grayscale"); 
-        // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit 
-      }
-   </script>
-    
-   <br>
-   <br>
-
-   <button id="invert-btn">Or click here</button>
+    <button id="invert-btn">Click here</button>
 
     <!-- css -->
     <style>
@@ -102,6 +75,32 @@
       });
     </script>
 
+    <br><br>
+
+    <button type="button" onclick="grayscale()">Or click on me</button> <!--button to go to grayscale-->
+    <!--hieronder is een stukje css, dit is om de button werkend te krijgen en anders zit het nutteloos in het css document te staan voor alle andere pagina's dan dit omdat het niet voor elke pagina geld-->
+    <style>
+  
+      body {
+        transition: filter 0,5s; 
+        background-color: #8e8ee8;;}
+      body.grayscale { 
+      /*this makes the website goes to grayscale the filter (1) means 100%*/
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+       background-color: gray;}
+   </style>
+
+      <!-- JavaScript -->
+    <script>
+
+     function grayscale() {
+ 
+        document.body.classList.toggle("grayscale"); 
+        // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit 
+      }
+   </script>
+    
    <footer class="footer">
      <p>Deze website is gemaakt door ...</p>
     </footer>
