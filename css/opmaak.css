@@ -60,9 +60,7 @@ footer {
   color: rgb(0, 0, 255);
 }
 
-div .image-float{
-  float: right;
-}
+div {float: right;}
 
   .hover-image {
     width: 540px;                 /* Beginbreedte van de afbeelding. */
