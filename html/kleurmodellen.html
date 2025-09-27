@@ -48,13 +48,21 @@
       wit. Als hier met een rgb code op geprint wordt gaat het mis, hierom bestaat het Cyan-Magenta-Yellow model 
       (cmy-model). Het cmy-model gebruikt de kleuren cyaan, magenta en geel. Om zwart te maken wordt er zwarte inkt 
       toegevoegd omdat alle kleuren mengen donkergrijs geeft. Zo ontstaat het CYMK-model, de k staat voor key of black  
-      (in het CYMK-model is black volgens de laatste letter van het woord black). 
+      (in het CYMK-model is black volgens de laatste letter van het woord black). Door kleuren te mengen kunnen alle 
+      mogelijke kleuren gemaakt worden. Dit is te zien in een kleurencirkel, 2 kleuren die naast elkaar zitten kunnen 
+      gemengt worden en zo ontstaat er een nieuwe kleur. kleuren die tegenover elkaar staan zijn complementaire kleuren. 
     </p>
 
     <h2>kleurfilters</h2>
     <p>
       Een filter laat niet al het licht door waardoor het kleur er anders uit komt dan voor een filter. Sommige
-      golflengtes en sommige types licht worden niet doorgelaten. 
+      golflengtes en sommige types licht worden niet doorgelaten. Een filter kan voor een camera zitten, dan wordt
+      de afbeelding genomen door het filter heen, dit is een lensfilter. Maar een filter kan er ook overheen gaan 
+      nadat de afbeelding gemaakt is, dit is een digitale filter. Een digitale filter hoeft niet alleen over een 
+      afbeelding te gaan, dit kan ook over een gebied gaan, een pagina of meer. <br> Een bekend filter is een 
+      kleurenfilter, dit filter het licht en zorgt ervoor dat er een kleur overblijft. Een roodfilter, houdt dus
+      alle kleuren tegen behalve rood, de andere kleuren worden tegengehouden door absoptie. Een andere bekende filter
+      is het black white filter (grayscale), dit zorgt ervoor dat alles in zwart en wit is. 
     </p>
     
 
@@ -88,6 +96,7 @@
 
     <button type="button" onclick="grayscale()">Or click on me</button> <!--button to go to grayscale-->
     <!--hieronder is een stukje css, dit is om de button werkend te krijgen en anders zit het nutteloos in het css document te staan voor alle andere pagina's dan dit omdat het niet voor elke pagina geld-->
+    
     <style>
   
       body {
@@ -98,7 +107,7 @@
         -webkit-filter: grayscale(1);
         filter: grayscale(1);
        background-color: gray;}
-   </style>
+    </style>
 
       <!-- JavaScript -->
     <script>
@@ -108,8 +117,10 @@
         document.body.classList.toggle("grayscale"); 
         // van het document naar de body classlist is zodat het css toegpast kan worden, toggle schakelt de grayscale aan en uit 
       }
-   </script>
+    </script>
     
+    <br>
+
     <footer class="footer">
      <p>Deze website is gemaakt door Skylar.</p>
     </footer>

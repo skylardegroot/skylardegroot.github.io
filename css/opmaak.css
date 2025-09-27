@@ -68,7 +68,7 @@ div {
 .hover-image {
   width: 540px;                 /* Beginbreedte van de afbeelding. */
   transition: transform 0.3s ease; /* Vloeiende overgang bij hover. */
-  margin-left: 45px; /*Dit zorgt ervoor dat de afbeelding 20px van de rand zit. */
+  margin-left: 50px; /*Dit zorgt ervoor dat de afbeelding 20px van de rand zit. */
 }
 
 .hover-image:hover {
