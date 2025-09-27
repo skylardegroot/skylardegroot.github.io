@@ -4,15 +4,15 @@
 
     <head>
 
-        <title>compressie</title>
+        <title>compressie</title> <!--De titel van de pagina.-->
 
-        <link rel="stylesheet" href="/css/opmaak.css">
+        <link rel="stylesheet" href="/css/opmaak.css"> <!--Het css document.-->
 
     </head>
 
     <body>
 
-        <ul>
+        <ul> <!--een menu-->
             <li><a href="/index.html">home</a></li>
             <li><a href="/html/binairstelsel.html">binair stelsel</a></li>
             <li><a href="/html/kleurmodellen.html">kleurmodellen</a></li>
@@ -20,26 +20,26 @@
             <li><a class="active" href="/html/compressie.html">compressie</a></li>
         </ul>
 
-        <h1>compressie</h1>
+        <h1>compressie</h1> <!--dit is een kopje-->
 
         <h2>bitmap en vectoren</h2>
 
         <p>
-            Een digitale afbeelding bestaat uit pixels, een afbeeling gemaakt van veel pixels
+            Een digitale afbeelding bestaat uit pixels, een afbeelding gemaakt van veel pixels
             is een bitmap afbeelding. Dit neemt veel opslagruimte in, ook zodra je inzoomt wordt de afbeelding
             onscherp. Bij een bitmap afbeelding wordt van elke pixel de rgb code voor de pixel opgeslagen dus als
             een afbeelding van 14 bij 20 pixels hebt dan staat er voor elke pixel een rgb code opgeslagen, dit 
             zijn voor deze afbeelding 14*20=280 rgb pixels met ieder een code die je computer moet opslaan. Dit is
-            veel en is je opslag snel vol. Bij een vector afbeelding worden niet per pixel de code opgeslagen maar worden er
+            veel en je opslag is snel vol. Bij een vector afbeelding worden niet per pixel de code opgeslagen maar worden er
             vormpjes die in de afbeelding herkent worden van de afbeelding opgeslagen, hier is het zo dat als je inzoomt 
-            dan worden de vormen opnieuw getekent, hierdoor wordt een afbeelding niet onscherp. Bij een vector afbeelding 
+            worden de vormen opnieuw getekend, hierdoor wordt een afbeelding niet onscherp. Bij een vector afbeelding 
             worden de eigenschappen van een afbeelding opgeslagen: de vorm, locatie, grootte en kleur. Dit kan niet bij een
             digitale foto omdat die niet uit vormen maar uit verschillende kleurtinten bestaat. 
         </p>
 
         <br><br>
 
-        <img src="/images/vector vs bitmap.jpg" alt="voorbeeld verschil bitmap vs. vector" class="hover-image">
+        <img src="/images/vector vs bitmap.jpg" alt="voorbeeld verschil bitmap vs. vector" class="hover-image"> <!--Dit is een afbeelding, src is de bron, en alt is wat er staat als de afbeelding niet inlaat-->
 
         <br><br>
 
@@ -47,21 +47,21 @@
 
         <p>
             Naast tekst, kleuren en plaatjes staat er ook geluid opgeslagen, geluid zijn golfjes, dit zijn trillingen. Met 
-            bijv. een microfoon kunnen geluidstrillingen worden omgezet in elektrische signaalen. De computer 
+            bijv. een microfoon kunnen geluidstrillingen worden omgezet in elektrische signalen. De computer 
             kan dit signaal omzetten naar digitale waarden, dit heet samplen. Hier wordt een keer in de zoveel tijd
             de sterkte van het geluid gemeten. Alle punten die gemeten zijn worden samples genoemd, en worden binair
-            opgeslagen. Als het geluid dan afgesleeld wordt dan worden de gemeten waarden weer omgezet naar elektrische
-            singalen. Het aantal samples per seconde wordt de sample rade genoemd.  
+            opgeslagen. Als het geluid dan afgespeeld wordt dan worden de gemeten waarden weer omgezet naar elektrische
+            signalen. Het aantal samples per seconde wordt de sample rate genoemd.  
         </p>
 
-        <iframe
+        <iframe 
             width="560"
             height="315"
             src="https://www.youtube.com/embed/XLfQpv2ZRPU"
             title="uitleg video hoe geluid werkt"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-            loading="lazy">
+            loading="lazy"> <!--Dit is een video die op een display staat, width is de breedte, height is de hoogte, src is de bron, title is de titel, allow is wat die kan doen. -->
         </iframe>
 
 
@@ -69,33 +69,33 @@
 
         <p>
             Bij lossy compressie worden er stukken van de afbeelding weggelaten, als er veel verschillende tinten
-            kleuren zijn worden die vervangen door dezelfde tint zodat het minder ruimte inneemt in de opslag. Dit
+            kleuren zijn worden vervangen door dezelfde tint zodat het minder ruimte inneemt in de opslag. Dit
             is niet altijd zichtbaar met het menselijke oog. Een veelvoorkomende lossy compressie methode is jpg. 
         </p>
 
-        <h2>lostless compressie</h2>
+        <h2>lossless compressie</h2>
 
         <p>
-            Bij lostless composositie worden er geen stukken weggelaten maar wordt er als er dezelfde kleur
-            naast elkaar staat in plaats van een paar keer die code naast elkaar gezegt: (hoeveelheid, code). Bij
-            lostless compressie kan het altijd weer terug naar het origineel maar bij lossy compressie kan dit niet.
-            Lossy compressie levert kleinere bestanden op dan lostless compressie
+            Bij lossless compressie worden er geen stukken weggelaten maar wordt er als er dezelfde kleur
+            naast elkaar staat in plaats van een paar keer die code naast elkaar gezet: (hoeveelheid, code). Bij
+            lossless compressie kan het altijd weer terug naar het origineel maar bij lossy compressie kan dit niet.
+            Lossy compressie levert kleinere bestanden op dan lossless compressie
         </p>
 
         <h2>compressie van geluid</h2>
 
         <p>
-            De bekenste manier om geluid te compressen is mp3, dit is een vorm van lossy compressie. Bij de
+            De bekendste manier om geluid te compressen is mp3, dit is een vorm van lossy compressie. Bij de
             kwaliteit van muziek is de sample rate van belang. Ook is het belangrijk hoeveel bits deze sample rate
             wordt opgeslagen. Deze twee vermenigvuldigd vormt de bitrate van muziek. Dit wordt uitgedrukt in 
-            kilobits per seconde (kbps). Mp3 bestanden met een bitrate van 128kbs dan 1 minuut muziek luisteren kost 
+            kilobits per seconde (kbps). Mp3 bestanden met een bitrate van 128 kbs dan 1 minuut muziek luisteren kost 
             ongeveer 1 MB aan opslagruimte. 
         </p>
       
         <br>
 
         <footer>
-            <p>Deze website is gemaakt door Skylar.</p>
+            <p>Deze website is gemaakt door Fleur.</p>
         </footer>
 
     </body>

@@ -1,55 +1,55 @@
-body {background-color: #8e8ee8;} /*background collor*/
+body {background-color: #8e8ee8;} /*Dit is de achtergrondkleur.*/
 
 ul { /*css for menu*/
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000000;
-  position: sticky;
-  top: 0; 
+  list-style-type: none; /*Het type van de lijst voor menu wat op niets staat.*/
+  margin: 0px; /*Geen margin aan een kant, dus er zit geen ruimte om het menu heen.*/
+  padding: 0; /*Geen padding in de blokken, dus het is de tekst en eromheen geen ruimte.*/
+  overflow: hidden; /*Dingen die buiten het vakje vallen, zijn niet zichtbaar.*/
+  background-color: #000000; /*De achtergrondkleur van het menu.*/
+  position: sticky; /*De positie van de menubalk.*/
+  top: 0; /*Het menu staat bovenaan de pagina.*/
 }
 
-ul li { /*the blocks with links*/
-  float: left;
+ul li { /*de blokken*/
+  float: left; /*De blokken gaan naar links in het menu.*/
 }
 
-ul li a { /*inside the blocks*/
-  display: block;
-  color: white;
-  text-align: center; 
-  padding: 14px 16px;
-  text-decoration: none;
+ul li a { /*Binnen in de blokken*/
+  display: block; /*De menuknoppen zijn blokken.*/
+  color: white; /*De tekstkleur is wit.*/
+  text-align: center;  /*De tekst staat in het midden van het blokje.*/
+  padding: 14px 16px; /*De padding in een blokje, hoeveel ruimte er omheen is.*/
+  text-decoration: none; /*Er is geen tekstdecoratie*/
 }
 
-ul li a:hover { /*hover, when going over the blocks the color*/
-  background-color: #f40909;
+ul li a:hover { /*Hover, when going over the blocks the color.*/
+  background-color: #f40909; /*De achtergrondkleur als je over de blokken heen gaat*/
 }
 
-ul li a.active { /*the active one, the page where you're on the color*/
-  background-color: #2b00ff;
+ul li a.active { /*The active one, the page where you're on the color.*/
+  background-color: #2b00ff; /*Achtergrondkleur als een blokje actief is.*/
 }
 
-p.Tekst {
-  border: 2px solid black;
-  border-radius: 12px;
-  padding: 5px;
-  margin-right: 30%;
+p.Tekst { /*Een stukje tekst bij indexpagina.*/
+  border: 2px solid black; /*De rand om de tekst heen.*/
+  border-radius: 12px; /*De bocht is 12 px.*/
+  padding: 5px; /*De ruimte in het blokje is 5px*/
+  margin-right: 30%; /*De ruimte naast het blokje rechts is 30%.*/
 }
 
-footer {
-  background-color: rgb(204, 0, 255);
-  padding: 5px;
-  text-align: center;
-  color: rgb(0, 0, 255);
+footer { /*Dit is het eind van elke pagina.*/
+  background-color: rgb(204, 0, 255); /*De achtergrond kleur.*/
+  padding: 5px; /*De ruimte om de tekst heen.*/
+  text-align: center; /*De teskt staat in het midden.*/
+  color: rgb(0, 0, 255); /*De kleur van de tekst*/
 }
 
 div {
-  float: right;
-  margin-left: 15px;
+  float: right; /*Een blokje div vliegt naar rechts.*/
+  margin-left: 15px; /*En dat blokje heeft 15px ruimte links*/
 }
 
-.hover-image {
+.hover-image { /*dit is bij een afbeelding in compressie*/
   width: 540px;                 /* Beginbreedte van de afbeelding. */
   transition: transform 0.3s ease; /* Vloeiende overgang bij hover. */
   margin-left: 50px; /*Dit zorgt ervoor dat de afbeelding 20px van de rand zit. */
